@@ -1,0 +1,15 @@
+
+<h2 style="margin-left: 130px; margin-top: 10px;">REAL TIME DRAWING CANVAS</h2>
+<div class="container">
+    <div class="canvas-container">
+        <canvas #canvas width="500" height="400" class="canvas"></canvas>
+    </div>
+    <div class="controls">
+        <button (click)="resetCanvas()">Reset</button>
+        <input type="color" (change)="changeColor($event)">
+        <input type="range" min="1" max="20" (input)="changeSize($event)">
+    </div>
+</div>
+
+
+

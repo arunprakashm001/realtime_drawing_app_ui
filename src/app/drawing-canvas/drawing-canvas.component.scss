@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.canvas-container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.controls {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.canvas {
+    border: 2px solid black;
+}
